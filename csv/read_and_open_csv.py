@@ -25,5 +25,4 @@ def read_csv(filepath):
 		 		print(row)#[0], row[1], row[2])
 			#except:
 		 		#pass
-		 
 read_csv(path)
