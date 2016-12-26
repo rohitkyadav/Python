@@ -15,5 +15,4 @@ def trade_spider(max_pages):
             print("title")
         page += 1
 
-trade_spider(10)
-       
+trade_spider(10)       
