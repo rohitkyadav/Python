@@ -14,5 +14,4 @@ def trade_spider(max_pages):
             print("href")
             print("title")
         page += 1
-
 trade_spider(10)       
