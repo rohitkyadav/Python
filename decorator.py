@@ -1,8 +1,6 @@
 def name():
 	print("python")
 
-
-
 def decorator(f):
 	def wrapper():
 		print("inside of decorator before calling thr function.")
@@ -13,9 +11,6 @@ def decorator(f):
 @decorator
 def name():
 	print("python")
-
-
-
 
 def decorator(f):
 	
