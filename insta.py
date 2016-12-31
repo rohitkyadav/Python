@@ -23,6 +23,7 @@ hashtag = raw_input("What hashtag would you like to download photos of? ")
 # url to query for pictures
 nextUrl = "https://api.instagram.com/v1/tags/"+hashtag+"/media/recent?access_token="+access_token
 print nextUrl
+
 # while there is a next url to go to
 while nextUrl:
 	# request the data at that endpoint 
