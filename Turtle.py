@@ -6,5 +6,3 @@ for y in [0, 30, 60]:
 	turtle.delay(100)
 	for steps in range(1):
 		turtle.circle(100)
-		
-		
